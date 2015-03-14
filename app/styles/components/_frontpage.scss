@@ -1,0 +1,28 @@
+.video {
+    background: #000;
+    height: $line-height-computed * 25;
+    background-size: cover;
+    background-position: center;
+    padding-top: 2 * $line-height-computed;
+}
+
+.numbers__number {
+    font-size: $font-size-h0;
+    font-weight: $headings-font-weight;
+}
+
+.numbers__description {
+    font-size: $font-size-h3;
+}
+
+.map {
+    background: #000;
+    height: $line-height-computed * 25;
+    background-size: cover;
+    background-position: center;
+    padding-top: 2 * $line-height-computed;
+}
+
+.qoute {
+    padding-bottom: 0;
+}

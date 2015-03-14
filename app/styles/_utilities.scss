@@ -1,0 +1,23 @@
+.no-vertical-margin {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.sm-vertical-padding {
+    padding-top: $line-height-computed;
+    padding-bottom: $line-height-computed;
+}
+
+.md-vertical-padding {
+    padding-top: $line-height-computed * 2;
+    padding-bottom: $line-height-computed * 2;
+}
+
+.lg-vertical-padding {
+    padding-top: $line-height-computed * 3;
+    padding-bottom: $line-height-computed * 3;
+}
+
+.vertical-spacer {
+    height: $line-height-computed;
+}

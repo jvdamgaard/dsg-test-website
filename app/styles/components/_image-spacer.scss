@@ -1,0 +1,14 @@
+.img-spacer {
+    height: $line-height-computed * 25;
+}
+
+.img-spacer__img {
+    width: 100%;
+    height: 112.5%;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    transform: translate3d(-10000,0,0);
+    z-index: 0;
+}

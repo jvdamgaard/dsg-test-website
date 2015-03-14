@@ -1,0 +1,25 @@
+button, .button {
+    background: rgba(255,255,255,0);
+    border: 2px solid $text-color;
+    line-height: 2 * $line-height-computed;
+    font-size: $font-size-large;
+    transition: background 0.3s;
+
+    &:hover {
+        background: rgba(255,255,255,0.75);
+    }
+}
+
+.button--full-width {
+    width: 100%;
+}
+
+.button--primary {
+    background: $brand-primary;
+    border: none;
+    color: $body-bg;
+
+    &:hover {
+        background: lighten($brand-primary,10%);
+    }
+}

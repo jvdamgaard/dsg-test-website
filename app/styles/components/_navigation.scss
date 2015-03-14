@@ -1,0 +1,9 @@
+.navigation__logo {
+    line-height: 4 * $line-height-computed !important;
+}
+
+.navigation__item {
+    margin-left: $grid-gutter-width;
+    padding: 0;
+    line-height: 4 * $line-height-computed !important;
+}
