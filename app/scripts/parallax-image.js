@@ -14,7 +14,7 @@
             var scrolledPast = ($parallaxImage.$container.offsetTop + $parallaxImage.$container.offsetHeight) < window.scrollY;
 
             if (scrolledTo && !scrolledPast) {
-                var yPos = Math.round(0.5 * ($parallaxImage.$container.offsetTop - window.scrollY));
+                var yPos = Math.round(0.25 * ($parallaxImage.$container.offsetTop - window.scrollY));
 
                 $parallaxImage.style.transform = 'translate3d(0,' + yPos + 'px,0)';
 
